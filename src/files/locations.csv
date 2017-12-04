@@ -1,64 +1,69 @@
-id;location;contact
-1;Albany-Corvallis ReUseIt (free items:  groups.yahoo.com);n/a
-2;Arc Thrift Stores (NW Beca-Corvallis, Main St-Philomath);various
-3;Benny's Business Closet (D 101 Weatherford Hall, OSU);541-757-0739
-4;Benton County Extension / 4-H Activities (1849 NW 9th);541-766-6750
-5;Benton County Master Gardeners (1849 NW 9th St);541-766-6750
-6;Book Bin and Browser's Bookstore (both on 4th St);various
-7;Boys & Girls Club of Corvallis (1112 NW Circle Blvd);541-757-1909
-8;CARDV (Center Against Rape & Domestic Violence);541-758-0219
-9;Career Closet for Women (drop-off at 942 NW 9th, Ste.A);541-752-4214
-10;CASA - Voices for Children (129 NW 4th St);541-753-5838
-11;Children's Farm Home (Hwy 20 btw Corvallis & Albany);541-757-1852
-12;Chintimini Wildlife Rehabilitation Ctr (311 Lewisburg Rd);541-745-5324
-13;Community Outreach (homeless shelter, 865 NW Reiman);541-758-3000
-14;Corvallis Bicycle Collective (707 NW 11th St);541-224-6885
-15;Corvallis Environmental Center (214 SW Monroe Ave);541-753-9211
-16;Corvallis Exchange - New & Used (210 NW 2nd St);541-230-1765
-17;Corvallis Furniture (1810 SW 3rd St/Hwy 99);541-286-4658
-18;Craigslist (corvallis.craigslist.org) and Freecycle.org;n/a
-19;Edge Analytics Lab (540 SW 3rd) COOLERS / BOXES ONLY;541-753-4946
-20;First Alternative Co-op Recycling Center (1007 SE 3rd St);541-753-3115
-21;First Alternative Co-op Stores (on NW Grant & SE 3rd);various
-22;Furniture Share (formerly Benton FS) (155 SE Lilly Ave);541-754-9511
-23;Gibbs Furniture (334 SW 2nd St);541-758-5454
-24;Goodwill Industries (1325 NW 9th St);541-752-8278
-25;Grace Center for Adult Day Services (980 NW Spruce);541-754-8417
-26;Habitat for Humanity ReStore (4840 SW Philomath Blvd);541-752-6637
-27;Happy Trails Records, Tapes & CDs (100 SW 3rd St);541-752-9032
-28;Heartland Humane Society (398 SW Twin Oaks Cir);541-757-9000
-29;Heartland Humane Society Thrift Shop (411 SW 3rd St);541-757-0573
-30;Home Grown Gardens (4845 SE 3rd St/Hwy 99W);541-758-2137
-31;Home Life Inc. (for develop. disabled, 2068 NW Fillmore);541-753-9015
-32;Jackson Street Youth Services (555 NW Jackson St);541-754-2404
-33;Linn Benton Food Share (lg. food donations, 545 SW 2nd);541-752-1010
-34;Lions Club (box inside Elks Lodge, 1400 NW 9th St);541-758-0222
-35;Love INC (for low income citizens, 2330 NW Profess. Dr);541-757-8111
-36;Mario Pastega House (Good Sam patient family housing);541-768-4650
-37;Mary's River Gleaners (for low income citizens);541-497-9019
-38;Midway Farms (Hwy 20 btw Corvallis & Albany);541-740-6141
-39;Neighbor to Neighbor (food pantry, 1123 Main, Philomath);541-929-6614
-40;9th St Second Hand (1430 NW 9th, in Chateau Hm Furn.);541-230-1900
-41;OSU Emergency Food Pantry (233 Snell Hall, SW Jefferson);541-737-3747
-42;OSU Folk Club Thrift Shop (144 NW 2nd St);541-752-4733
-43;OSU Organic Growers Club (Crop & Soil Science Dep't);541-979-5833
-44;OSU Surplus Property (644 SW 13th St);541-737-7347
-45;Pak Mail (2397 NW Kings Blvd, Timberhill Shopping Ctr);541-754-8411
-46;Philomath- Lupe's Community Garden  (call for address);541-929-9499
-47;Philomath Community Srvcs (food & kids stuff, 360 S 9th);541-929-2499
-48;Play It Again Sports (1422 NW 9th St);541-754-7529
-49;Presbyterian Piecemakers (cotton quilts);541-753-7516
-50;Public Library Corvallis, Friends of (645 NW Monroe Ave) ;541-766-6928
-51;Quilts From Caring Hands (cotton quilts);541-758-8161
-52;Rapid Refill Ink (254 SW Madison);541-758-8444
-53;re·volve (women's resale boutique, 103 SW 2nd St);541-754-1154
-54;Runway Fashion Exchange (264 SW Madison Ave);541-360-0100
-55;Schools--Public, Private, Charter ;various
-56;Second Glance/Annex/The Alley (SW 3rd & SW Jefferson);various
-57;Senior Center, Corvallis (2601 NW Tyler Ave);541-766-6959
-58;South Corvallis Food Bank (1798 SW 3rd St);541-753-4263
-59;Spaeth Heritage House ;
-60;Stone Soup (St Mary's Church, 501 NW 25th St);541-757-1988
-61;St Vincent de Paul Thrift/Pantry (next to St Mary's, NW 25th);541-757-1988
-62;UPS Stores (on NW Circle & on SW Philomath Blvd) ;various
-63;Vina Moses (for low income citizens, 968 NW Garfield);541-753-1420
+id;name;essential_notes;address;lat;lng;details;url;phone
+1;Albany-Corvallis ReUseIt;free items;;;;;groups.yahoo.com;
+2;Arc Thrift Store Corvallis;various;928 NW Beca Ave, Corvallis, OR 97330;44.577977;-123.261567;;arcbenton.org;(541) 754-9011
+3;Benny's Business Closet ;541-766-6750;Weatherford Hall 300 SW 26th St., Corvallis, OR 97331;44.564103;-123.280571;D 101;;541-757-0739
+4;Benton County Extension / 4-H Activities ;541-766-6750;1849 Northwest 9th Street, Corvallis, OR;44.586247;-123.256339;;http://extension.oregonstate.edu/benton/4h;541-766-6750
+5;Benton County Master Gardeners;various;1849 Northwest 9th Street, Corvallis, OR;44.586247;-123.256339;;http://extension.oregonstate.edu/benton/bcmga-docs;541-766-6750
+6;Book Bin;541-757-1909;215 SW 4th St, Corvallis, OR 97333;44.563272;-123.262406;;http://bookbin.com/about-us/find-stores/corvallis-book-bin/;(541) 752-0040
+7;Boys & Girls Club of Corvallis;541-752-4214;1112 NW Circle Blvd, Corvallis, OR 97330;44.5886;-123.263897;;http://www.bgccorvallis.org/;541-757-1909
+8;CARDV (Center Against Rape & Domestic Violence);541-753-5838;4786 SW Philomath Blvd, Corvallis, OR 97333;44.552865;-123.304968;;http://cardv.org/;541-758-0219
+9;Career Closet for Women ;(drop-off);942 Northwest 9th Street, Corvallis, OR;44.574378;-123.263297;Suite A;https://www.facebook.com/corvalliscareercloset/;541-752-4214
+10;CASA - Voices for Children ;541-745-5324;129 NW 4th St, Corvallis, OR 97330;44.565112;-123.261387;;https://www.casa-vfc.org/;541-753-5838
+11;Children's Farm Home School;541-758-3000;4455 NE Hwy 20, Corvallis, OR 97330;44.609208;-123.216297;;https://trilliumfamily.org/;541-757-1852
+12;Chintimini Wildlife Rehabilitation Center;541-224-6885;311 NW Lewisburg Ave, Corvallis, OR 97330;44.629022;-123.247131;;https://www.chintiminiwildlife.org/;541-745-5324
+13;Community Outreach (homeless shelter);541-753-9211;865 NW Reiman Ave, Corvallis, OR 97330;44.573228;-123.262242;;http://www.communityoutreachinc.org/;541-758-3000
+14;Corvallis Bicycle Collective;541-230-1765;707 NW 11th St, Corvallis, OR 97330;44.572339;-123.266177;;http://corvallisbikes.org/;541-224-6885
+15;Corvallis Environmental Center ;541-286-4658;116 SW 4th St, Corvallis, OR 97333;44.564346;-123.262618;;http://www.corvallisenvironmentalcenter.org/;541-753-9211
+16;Corvallis Exchange - New & Used ;n/a;210 NW 2nd St, Corvallis, OR 97330;44.565443;-123.259331;;http://corvallis-exchange.website/;541-230-1765
+17;Corvallis Furniture ;541-753-4946;1810 SW 3rd St, Corvallis, OR 97333;44.54742;-123.265829;;http://corvallisfurniture.com/;541-286-4658
+18;Craigslist ;541-753-3115;;;;;corvallis.craigslist.org;
+19;Edge Analytical Lab;(COOLERS / BOXES ONLY);540 SW 3rd St, Corvallis, OR 97333;44.559828;-123.263679;;https://www.edgeanalytical.com/corvallis-lab/;541-753-4946
+20;First Alternative Co-op Recycling Center ;541-758-5454;1007 SE 3rd St, Corvallis, OR 97333;44.553816;-123.264531;;https://firstalt.coop/community/recycling-center/;541-753-3115
+21;First Alternative Co-op Stores ;541-752-8278;2855 NW Grant Ave, Corvallis, OR 97330;44.578968;-123.282305;;https://firstalt.coop/;various
+22;Furniture Share (formerly Benton FS) ;541-754-8417;155 SE Lilly Ave, Corvallis, OR 97333;44.548457;-123.26461;;http://furnitureshare.org/;541-754-9511
+23;Gibbs Furniture ;541-752-6637;334 SW 2nd St, Corvallis, OR 97333;44.561487;-123.261558;;https://www.facebook.com/Gibbs-Furniture-219582418093443/;541-758-5454
+24;Goodwill Industries ;541-752-9032;1325 NW 9th St, Corvallis, OR 97330;44.578377;-123.259636;;;541-752-8278
+25;Grace Center for Adult Day Services ;541-757-9000;980 NW Spruce Ave, Corvallis, OR 97330;44.587054;-123.260851;;gracecenter-corvallis.org;541-754-8417
+26;Habitat for Humanity ReStore ;541-757-0573;4840 SW Philomath Blvd, Corvallis, OR 97333;44.552376;-123.306278;;http://bentonhabitat.org/restore/;541-752-6637
+27;Happy Trails Records, Tapes & CDs ;541-758-2137;100 SW 3rd St, Corvallis, OR 97333;44.564291;-123.261295;;https://www.facebook.com/HappyTrailsRecords/;541-752-9032
+28;Heartland Humane Society ;541-753-9015;398 SW Twin Oaks Cir, Corvallis, OR 97333;44.552933;-123.268905;;heartlandhumane.org;541-757-9000
+29;Heartland Humane Society Thrift Shop ;541-754-2404;411 SW 3rd St, Corvallis, OR 97333;44.561005;-123.262257;;http://heartlandhumane.org/thrift-shop/;541-757-0573
+30;Home Grown Gardens Nursery;541-752-1010;4845 SE 3rd St, Corvallis, OR 97333;44.511911;-123.268794;;https://www.facebook.com/homegrowngardenscorvallis/;541-758-2137
+31;Home Life Inc. (for developmentally disabled);541-758-0222;2068 NW Fillmore Ave, Corvallis, OR 97330;44.575338;-123.27597;;http://homelifeinc.org/;541-753-9015
+32;Jackson Street Youth Services;541-757-8111;555 NW Jackson Ave, Corvallis, OR 97330;44.566262;-123.263035;;www.jsysi.org;541-754-2404
+33;Linn Benton Food Share;lg. food donations;545 SW 2nd St, Corvallis, OR 97333;44.559272;-123.261947;;communityservices.us/nutrition/detail/category/linn-benton-food-share;541-752-1010
+34;Lions Club;(box inside Elks Lodge);1400 NW 9th St, Corvallis, OR 97330;44.58008;-123.260551;;;541-758-0222
+35;Love INC (for low income citizens);541-740-6141;2330 NW Professional Dr #102, Corvallis, OR 97330;44.589991;-123.277939;;www.yourloveinc.org;541-757-8111
+36;Mario Pastega House (Good Samaritan patient family housing);541-929-6614;3505 NW Samaritan Dr, Corvallis, OR 97330;44.600852;-123.249467;;https://www.facebook.com/MarioPastegaHouse/;541-768-4650
+37;Mary's River Gleaners (for low income citizens);541-230-1900;;;;;https://www.facebook.com/Marys-River-Gleaners-360830417274446/;541-497-9019
+38;Midway Farms;541-737-3747;6980 US-20, Albany, OR 97321;44.636942;-123.178034;;https://www.facebook.com/pg/Midwayfarmsoregon/about/;541-740-6141
+39;Neighbor to Neighbor (food pantry);541-752-4733;1123 Main St, Philomath, OR;44.541029;-123.36999;;;541-929-6614
+40;9th St Second Hand ;541-979-5833;1430 NW 9th St, Corvallis, OR 97330;44.581008;-123.260006; (in Chateau Home Furnishings);;541-230-1900
+41;OSU Emergency Food Pantry ;541-737-7347;(233 Snell Hall, SW Jefferson);44.563689;-123.27641;;;541-737-3747
+42;OSU Folk Club Thrift Shop ;541-754-8411;144 NW 2nd St, Corvallis, OR 97330;44.56499;-123.259759;;http://osufolk.oregonstate.edu/thrift-shop;541-752-4733
+43;OSU Organic Growers Club (Crop & Soil Science Dept);541-929-9499;109 Crop Science Building, 3050 SW Campus Way, Corvallis, OR 97331;44.566431;-123.285288;;http://cropandsoil.oregonstate.edu/organic_grower;541-979-5833
+44;OSU Surplus Property ;541-929-2499;644 SW 13th Street, Corvallis, OR 97333;44.561378;-123.272602;;http://surplus.oregonstate.edu/surplus/public-sales/osused-store;541-737-7347
+45;Pak Mail ;541-754-7529;2397 NW Kings Blvd, Corvallis, OR 97330;44.591289;-123.272885;(in Timberhill Shopping Center);https://www.pakmail.com/stores/pak-mail-corvallis;541-754-8411
+46;Philomath- Lupe's Community Garden  ;(call for address);;;;;http://philomathcommunityservices.org/communitygarden;541-929-9499
+47;Philomath Community Services;(food & kids stuff);360 S 9th St, Philomath, OR 97370;44.535661;-123.373901;;www.philomathcommunityservices.org;541-929-2499
+48;Play It Again Sports;541-758-8161;1422 NW 9th St, Corvallis, OR 97330;44.580719;-123.260132;;https://www.playitagainsports.com/;541-754-7529
+49;Presbyterian Piecemakers;(cotton quilts);;;;;;541-753-7516
+50;Public Library Corvallis, Friends of ;541-754-1154;645 NW Monroe Ave, Corvallis, OR 97330;44.565702;-123.2644;;https://friendsofthecbclibrary.org/;541-766-6928
+51;Quilts From Caring Hands;(cotton quilts);;;;;;541-758-8161
+52;Rapid Refill Ink ;various;252 SW Madison Ave #110, Corvallis, OR 97333;44.563062;-123.261255;;;541-758-8444
+53;re·volve;(women's resale boutique);103 SW 2nd St, Corvallis, OR 97333;44.563823;-123.259459;;www.revolveresale.com;541-754-1154
+54;Runway Fashion Exchange ;541-766-6959;264 SW Madison Ave, Corvallis, OR 97333;44.563088;-123.261099;;https://runwayfashionexchange.com;541-360-0100
+55;Schools--Public, Private, Charter ;541-753-4263;;;;;;various
+56;Second Glance / Annex;;312 SW 3rd St, Corvallis, OR 97333;44.562124;-123.262353;;www.glanceagain.com/;541.753.8011
+57;Senior Center, Corvallis;541-757-1988;2601 NW Tyler Ave, Corvallis, OR 97330;44.573055;-123.280457;;http://www.corvallisoregon.gov/index.aspx?page=257;541-766-6959
+58;South Corvallis Food Bank;various;1800 SW 3rd St #110, Corvallis, OR 97333;44.546694;-123.267173;;www.southcorvallisfoodbank.org;541-753-4263
+59;Spaeth Heritage House ;541-753-1420;137 N 13th St, Philomath, OR 97370;44.540968;-123.367593;;https://www.facebook.com/Spaeth-Heritage-House-515968241847430/;(541) 307-0349
+60;Stone Soup (St Mary's Church);;501 NW 25th St, Corvallis, OR 97330;44.572976;-123.278457;(St. Mary's Church);www.stonesoupcorvallis.org/about.html;541-757-1988
+61;St Vincent de Paul Thrift/Pantry ;;501 NW 25th St, Corvallis, OR 97330;44.572976;-123.278457;(next to St Mary's);;541-757-1988
+62;UPS Store Corvallis;;922 NW Circle Blvd #160, Corvallis, OR 97330;44.588077;-123.257306;;;(541) 752-0056
+63;Vina Moses (for low income citizens);;968 NW Garfield Ave, Corvallis, OR 97330;44.582928;-123.260511;;www.vinamoses.org;541-753-1420
+64;Arc Thrift Store Philomath;541-757-0739;936 Main St, Philomath, OR 97370;44.539899;-123.372789;;arcbenton.org;(541) 929-3946
+65;Browser's Bookstore;541-758-0219;121 NW 4th St, Corvallis, OR 97330;44.564987;-123.261451;;http://www.browsersbookstore.com/;(541) 758-1121
+66;Freecycle;various;;;;;Freecycle.org;
+67;The Alley ;541-757-1988;312 SW Jefferson Ave, Corvallis, OR 97333;44.562303;-123.262376;;www.glanceagain.com/the-alley/;541.753.4069
+68;UPS Store Philomath;;5060 SW Philomath Blvd, Corvallis, OR 97333;44.552006;-123.307558;;;(541) 752-1830

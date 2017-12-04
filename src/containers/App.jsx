@@ -1,12 +1,13 @@
 import React from 'react';
 import { dsvFormat } from 'd3-dsv';
-import { keyBy } from 'lodash/collection';
+import { marker } from 'leaflet';
 
 import ItemDetails from 'containers/ItemDetails';
 import ItemList from 'containers/ItemList';
 import initMap from 'containers/Map';
 import itemData from 'files/items.csv';
 import locationData from 'files/locations.csv';
+import { keyBy } from 'utils/collection';
 
 class App extends React.Component {
     constructor(props) {
@@ -19,6 +20,7 @@ class App extends React.Component {
             details: null
         };
 
+        this.addLocationMarkers = this.addLocationMarkers.bind(this);
         this.handleBackClick = this.handleBackClick.bind(this);
         this.handleItemClick = this.handleItemClick.bind(this);
     }
@@ -28,9 +30,14 @@ class App extends React.Component {
         xhrItems.open('GET', itemData);
         xhrItems.responseType = 'text/csv';
         xhrItems.onload = () => {
+            const items = keyBy(dsvFormat(';')
+                .parse(xhrItems.response), 'id');
+            Object.values(items)
+                .forEach((item) => {
+                    item.locations = item.locations.split(',');
+                });
             this.setState({
-                items: keyBy(dsvFormat(';')
-                    .parse(xhrItems.response), 'id')
+                items
             });
         };
         xhrItems.send();
@@ -39,10 +46,12 @@ class App extends React.Component {
         xhrLocations.open('GET', locationData);
         xhrLocations.responseType = 'text/csv';
         xhrLocations.onload = () => {
+            const locations = keyBy(dsvFormat(';')
+                .parse(xhrLocations.response), 'id');
             this.setState({
-                locations: keyBy(dsvFormat(';')
-                    .parse(xhrLocations.response), 'id')
+                locations
             });
+            this.addLocationMarkers(Object.values(locations));
         };
         xhrLocations.send();
 
@@ -51,10 +60,24 @@ class App extends React.Component {
         // eslint-disable-next-line react/no-did-mount-set-state
         this.setState({ map }, () => {
             setTimeout(() => this.state.map.invalidateSize(), 1000);
+            this.addLocationMarkers(Object.values(this.state.locations));
         });
     }
 
+    addLocationMarkers(locations) {
+        if (this.state.map && locations.length) {
+            this.state.map.markerLayer.clearLayers();
+            locations
+                .forEach((location) => {
+                    const locationMarker = marker([location.lat, location.lng])
+                        .addTo(this.state.map.markerLayer);
+                    locationMarker.bindPopup(`${location.name}<br>${location.address}<br>${location.phone}`);
+                });
+        }
+    }
+
     handleBackClick() {
+        this.addLocationMarkers(Object.values(this.state.locations));
         this.setState({ details: null });
     }
 
@@ -73,6 +96,7 @@ class App extends React.Component {
                                     item={this.state.details}
                                     handleBackClick={this.handleBackClick}
                                     locations={this.state.locations}
+                                    addLocationMarkers={this.addLocationMarkers}
                                 /> :
                                 <ItemList items={this.state.items} onItemClick={this.handleItemClick} />
                         }

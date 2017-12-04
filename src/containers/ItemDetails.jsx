@@ -2,6 +2,22 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function ItemDetails(props) {
+    const locationRows = [];
+    const locationMarkers = [];
+    props.item.locations.forEach((locationId) => {
+        locationRows.push((
+            <tr key={locationId}>
+                <td>{props.locations[locationId].name}</td>
+                <td>{props.locations[locationId].essential_notes}</td>
+                <td>{props.locations[locationId].address}</td>
+                <td>{props.locations[locationId].details}</td>
+                <td>{props.locations[locationId].url}</td>
+                <td>{props.locations[locationId].phone}</td>
+            </tr>
+        ));
+        locationMarkers.push(props.locations[locationId]);
+    });
+    props.addLocationMarkers(locationMarkers);
     return (
         <div className="section">
             <div className="field has-addons">
@@ -16,7 +32,7 @@ function ItemDetails(props) {
                 <h3>{props.item.details}</h3>
                 <div
                     style={{
-                        height: window.innerHeight * 0.9,
+                        height: window.innerHeight * 0.7,
                         overflowY: 'auto'
                     }}
                 >
@@ -24,19 +40,14 @@ function ItemDetails(props) {
                         <thead>
                             <tr>
                                 <th>Location</th>
-                                <th>Contact info</th>
+                                <th>Essential Notes</th>
+                                <th>Address</th>
+                                <th>Details</th>
+                                <td>Website</td>
+                                <td>Phone</td>
                             </tr>
                         </thead>
-                        <tbody>
-                            {props.item.locations.split(',')
-                                .map(locationId => (
-                                    <tr key={locationId}>
-                                        <td>{props.locations[locationId].location}</td>
-                                        <td>{props.locations[locationId].contact}</td>
-                                    </tr>
-                                ))
-                            }
-                        </tbody>
+                        <tbody>{locationRows}</tbody>
                     </table>
                 </div>
             </div>
@@ -49,10 +60,11 @@ ItemDetails.propTypes = {
         id: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         details: PropTypes.string.isRequired,
-        locations: PropTypes.string
+        locations: PropTypes.array
     }).isRequired,
     locations: PropTypes.shape({}).isRequired,
-    handleBackClick: PropTypes.func.isRequired
+    handleBackClick: PropTypes.func.isRequired,
+    addLocationMarkers: PropTypes.func.isRequired
 };
 
 export default ItemDetails;

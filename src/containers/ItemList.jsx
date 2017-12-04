@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { filter, keyBy } from 'lodash/collection';
+
+import { filter } from 'utils/collection';
 
 class ItemList extends React.Component {
     constructor(props) {
@@ -19,14 +20,11 @@ class ItemList extends React.Component {
 
     search() {
         const items = this.searchInput.value ?
-            keyBy(
-                filter(
-                    this.props.items,
-                    item => item.name
-                        .toLowerCase()
-                        .includes(this.searchInput.value.toLowerCase())
-                ),
-                'id'
+            filter(
+                this.props.items,
+                item => item.name
+                    .toLowerCase()
+                    .includes(this.searchInput.value.toLowerCase())
             ) :
             this.props.items;
         this.setState({
@@ -37,8 +35,8 @@ class ItemList extends React.Component {
     render() {
         return (
             <div className="section">
-                <div className="field has-addons">
-                    <div className="control is-expanded">
+                <div className="field">
+                    <div className="control">
                         <div className="is-fullwidth">
                             <input
                                 ref={(c) => {
@@ -51,17 +49,12 @@ class ItemList extends React.Component {
                             />
                         </div>
                     </div>
-                    <div className="control">
-                        <button type="submit" className="button is-primary">
-                            <i className="fa fa-search" />
-                        </button>
-                    </div>
                 </div>
                 {
                     Object.keys(this.state.items).length ?
                         <div
                             style={{
-                                height: window.innerHeight * 0.9,
+                                height: window.innerHeight * 0.7,
                                 overflowY: 'auto'
                             }}
                         >

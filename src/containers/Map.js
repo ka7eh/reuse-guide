@@ -23,6 +23,10 @@ function initMap() {
         preferCanvas: true
     });
 
+    const markerLayer = L.layerGroup();
+    markerLayer.addTo(map);
+    map.markerLayer = markerLayer;
+
     return map;
 }
 
