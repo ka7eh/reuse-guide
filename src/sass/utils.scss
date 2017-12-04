@@ -1,0 +1,20 @@
+@mixin vendor-prefix($name, $value) {
+  @each $vendor in ('-webkit-', '-moz-', '-ms-', '-o-', '') {
+    #{$vendor}#{$name}: #{$value};
+  }
+}
+
+@mixin color-classes($colors) {
+  @each $color in $colors {
+    $color-name: nth($color, 1);
+    $color-value: nth($color, 2);
+
+    .is-#{$color-name} {
+      background: $color-value;
+    }
+
+    .has-text-#{$color-name} {
+      color: $color-value !important;
+    }
+  }
+}

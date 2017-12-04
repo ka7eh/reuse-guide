@@ -1,0 +1,36 @@
+id;name;details;locations
+1;APPLIANCES, LARGE;dishwashers, washer/dryers, stoves, fridges, etc;1,18,22,24,26,35
+2;APPLIANCES, SMALL;microwaves, blenders, toasters, vacuums, space heaters, fans, etc.;1,2,8,11,17,18,22,24,26,29,35,37,40,42,61,63
+3;ART SUPPLIES;;1,2,4,7,10,11,13,15,18,24,25,26,29,31,32,36,37,41,42,55,63
+4;BEDDING / BATH;sheets/linens, blankets, comforters, towels, small rugs, etc.;1,2,12,13,18,22,24,25,28,29,31,32,35,37,42,61,63
+5;BIKES / EXERCISE / SPORTING / CAMPING;bikes/parts, helmets, skateboards, balls, backpacks, tents, etc.;1,2,10,11,14,18,24,26,29,32,35,37,42,48,63
+6;BOOKS;;1,2,5,6,7,8,10,18,24,25,29,31,37,42,47,50,55,57,63
+7;BROWN PAPER / LARGE SHOPPING BAGS;;1,2,16,18,21,26,29,37,38,41,47,55,56,61,63
+8;BLDG MATERIALS / HOME IMPROVEMENT;dimensional lumber, plumbing, electrical, paint, hand tools, power tools, doors, windows, lights, hardware, carpeting , etc.;1,11,12,18,24,26,32,37,38,42
+9;CDs, DVDs, LPs, video games, etc.;;1,2,6,7,8,10,11,18,24,25,26,27,29,31,32,36,37,42,50,57,61,63
+10;CELL PHONES;preferably with chargers;1,8,15,18,21,25,29,34,36,37,57
+11;CHILDREN'S GOODS / CLOTHING;strollers, bike trailers/seats, baby gates, cribs, high chairs, playpens, diapers/diaper bags, accessories, toys, clothing, nursing items, maternity, etc.;1,2,10,11,16,18,24,29,35,37,42,47,58,61,63
+12;CLOTHING / ACCESSORIES ;;1,2,3,9,11,16,18,24,25,29,31,37,42,53,54,56,61,63
+13;COMPUTER PAPER;ok if printed on one side;1,18,37
+14;COMPUTERS / MONITORS;;1,2,7,10,12,18,24,25,26,37
+15;EGG CARTONS;;1,18,21,37,38,42,43,46
+16;EYEGLASSES;;1,18,21,24,29,34,35,37,57,63
+17;FABRIC;material, batting, supplies;1,2,4,18,24,25,29,35,37,42,49,51,63
+18;FIREWOOD;;1,18,26,33,35,37
+19;FOOD (unopened, pre-expired);non-perishable canned and packaged food and beverages;1,8,13,18,21,33,36,37,39,41,47,58,60,63
+20;FOOD (surplus garden produce);freshly grown foods with no visible signs of spoilage;1,8,12,13,18,32,37,39,41,47,57,58,60,63
+21;FOOD CONTAINERS;clean glass/plastic w/lids;1,18,21,36,37,38,41,42
+22;FURNITURE;;1,2,7,11,16,17,18,22,23,24,25,26,29,31,35,37,40,42
+23;GARDEN / FARM / LANDSCAPING;supplies, hoses, fencing/posts, lawn furniture, mowers, wheelbarrows, BBQs, hand tools, farm tools, gloves, seeds, seeders, mulch/soil amendments, livestock supplies, stakes, etc.;1,2,5,11,12,18,24,25,26,29,31,32,35,37,38,42,43,46,63
+24;GARDEN POTS ;;1,2,5,15,18,20,24,25,26,30,31,37,42,63
+25;HOME ELECTRONICS;TVs, CD or DVD players, iPads/iPods, gaming consoles, stereos, cameras, alarm clocks, etc.;1,2,8,11,18,22,24,25,26,29,31,35,37,57,63
+26;HOUSEHOLD GOODS;luggage, utensils, dishes, cookware, cleaning supplies, decor, art, etc.;1,2,8,16,17,18,22,24,25,26,29,31,35,37,40,42,61,63
+27;MEDICAL EQUIPMENT / SUPPLIES;wheelchairs, walkers, crutches, canes, blood pressure monitors, shower chairs, adult diapers, glucose meters, hearing aids, hospital beds, reach-extenders/grabbers, etc.;1,2,12,18,24,25,26,29,35,37,42,57
+28;OFFICE EQUIPMENT;printers, fax machines, scanners, calculators, telephones, headsets, etc.;1,2,10,15,18,24,25,26,29,31,37,40
+29;OFFICE SUPPLIES;;1,2,7,10,11,18,24,25,26,29,31,32,35,37,55,63
+30;PACKING MATERIAL / STYRO BOXES/COOLERS;clean foam peanuts, foam sheets, and bubble wrap;1,18,19,37,44,45,62
+31;PET SUPPLIES / FOOD;;1,2,12,18,24,25,28,29,37,41,42,63
+32;PRINTER CARTRIDGE REFILLING;;21,52
+33;SCHOOL SUPPLIES;paper, pens, pencils, crayons, markers, backpacks, rulers, etc.;1,2,4,7,10,11,13,15,18,24,25,29,32,35,37,41,42,55,61,63
+34;TOILETRIES;shampoo, deodorant, lotion, sh ving supplies, feminine products, travel-size items, etc.;1,11,13,18,24,25,29,31,32,33,35,37,41,47,55,61,63
+35;VEHICLES / PARTS;;1,2,18,24,25,31,35,37
